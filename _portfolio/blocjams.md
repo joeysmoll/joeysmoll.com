@@ -9,7 +9,7 @@ short-description: BlocJams is a Spotify replica for playing music from an album
 ![]({{ site.baseurl }}/img/landing_pixlr_microsoft-surfacebook-front.png)
 
 ## Background
-Bloc Jams is a Spotify-like music application developed while doing my  apprenticeship under Bloc's software development program. Bloc presented the Bloc Jams project as a way to apply foundational front-end concepts. Bloc provided supplemental code throughout this project and challenged me to refactor the code multiple times to gain more experience working with the DOM and JQuery.   
+Bloc Jams is a Spotify-like music application developed while doing my  apprenticeship under Bloc's software development program. Bloc presented the Bloc Jams project as a way to apply foundational front-end concepts. Bloc provided supplemental code throughout this project and challenged me to refactor the code multiple times to gain more experience working with the DOM and jQuery.   
 
 MOBILE ready...
 
