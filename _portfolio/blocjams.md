@@ -11,34 +11,37 @@ short-description: BlocJams is a Spotify replica for playing music from an album
 ## Background
 Bloc Jams is a Spotify-like music application developed while doing my  apprenticeship under Bloc's software development program. Bloc presented the Bloc Jams project as a way to apply foundational front-end concepts. Bloc provided supplemental code throughout this project and challenged me to refactor the code multiple times to gain more experience working with the DOM and jQuery.   
 
-MOBILE ready...
+## Features
+Here are some of the defining features to enhance user experience.
+
+MOBILE ready
 
 {:.center}
 ![]({{ site.baseurl }}/img/mobile_album_pixlr_iphonesespacegrey_portrait.png)
 
-HOLDS many albums...
+HOLDS many albums
 
 {:.center}
 ![]({{ site.baseurl }}/img/collection_pixlr_microsoft-surfacebook-front.png)
 
-DISPLAYS album information...
+DISPLAYS album information
 
 {:.center}
 ![]({{ site.baseurl }}/img/album_pixlr_microsoft-surfacebook-front.png)
 
-PLAYS music...
+PLAYS music
 
 {:.center}
 ![]({{ site.baseurl }}/img/play_song.png)
 
-TRACKS song progress and volume levels...
+TRACKS song progress and volume
 
 {:.center}
 ![]({{ site.baseurl }}/img/player_bar.png) 
 
 
-## The Real Project:
-Refactor Bloc Jams using the AngularJS framework
+## The Real Project: Refactor Bloc Jams using the AngularJS framework
+
 
 ### Challenge 1: Views and Routing
 
@@ -83,25 +86,28 @@ Refactor Bloc Jams using the AngularJS framework
 
 ### Challenge 7: Attributes and Directives
 
-* Pass __`value`__ &__`max`__ attributes to the Seek Bar directive
-* Create a method to observe when seek bar attributes change and track music progression real time
+* Pass __`value`__ & __`max`__ attributes to the Seek Bar directive
+* Create a method to observe when seek bar attributes change and track music progression in real time
 * Create a __`volume`__ method to adjust volume level
 
 ### Challenge 8: Filters
 
 * Create a __`timecode.js`__ filter for the song duration and progression so time is reformatted using minutes and seconds
 
-## A Perfect Solution
+## A Better Solution
 
-Implementing Angular framework allowed Bloc Jams to run more efficiently when navigating between pages due to injecting html templates into the __`index.html`__ rather than replacing the page all together and reloading all parts like the navigation bar.     
+Implementing Angular allowed Bloc Jams to run more efficiently when navigating between pages due to injecting html templates into the __`index.html`__ rather than replacing the page all together and reloading all parts like the navigation bar.     
 
 ## What's Delivered
 
 {:.center}
 ![]({{ site.baseurl }}/img/play_song.png)
 
-A successfully transformed Bloc Jams application that functions the same way as my prior version built in JQuery.  
+A successfully transformed Bloc Jams application that functions the same way as my prior version built in jQuery.  
 
 ## Lesson Learned
 
-Using muli-page or single-page solutions for applications will come with there compromises and I sacrificed a simple design structure for a more complex design, but also more efficient a more efficient application.     
+Using muli-page or single-page solutions for applications will come with its compromises and I sacrificed a simple design structure for a more complex design in order to have a more efficient application.     
+
+{:.center}
+![]({{ site.baseurl }}/img/Compare.png)
