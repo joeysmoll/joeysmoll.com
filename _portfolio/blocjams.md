@@ -40,8 +40,9 @@ TRACKS song progress and volume
 ![]({{ site.baseurl }}/img/player_bar.png) 
 
 
-## The Real Project: Refactor Bloc Jams using the AngularJS framework
+## The Real Project: Refactor Bloc Jams using the Angular
 
+The biggest challenge was learning about these new concepts - some of which are unique to Angular and others that apply to a broader selection of software - without compromising the existing user experience originally created using jQuery. 
 
 ### Challenge 1: Views and Routing
 
