@@ -107,7 +107,7 @@ A successfully transformed Bloc Jams application that functions the same way as 
 
 ## Lesson Learned
 
-Using muli-page or single-page solutions for applications will come with its compromises and I sacrificed a simple design structure for a more complex design in order to have a more efficient application.     
+Using multi-page or single-page solutions for applications will come with its compromises and I sacrificed a simple design structure for a more complex design in order to have a more efficient application.     
 
 {:.center}
 ![]({{ site.baseurl }}/img/Compare.png)
