@@ -104,7 +104,7 @@ Implementing Angular allowed Bloc Jams to run more efficiently when navigating b
 {:.center}
 ![]({{ site.baseurl }}/img/play_song.png)
 
-A successfully transformed Bloc Jams application that functions the same way as my prior version built in jQuery.  
+A successfully transformed Bloc Jams application that has identical functionality to my prior version built using jQuery.  
 
 ## Lesson Learned
 
