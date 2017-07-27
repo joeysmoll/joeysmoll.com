@@ -8,44 +8,43 @@ short-description: Bloc Chat is chat room application.
 {:.center}
 ![]({{ site.baseurl }}/img/Bloc-Chat-pixlr_microsoft-surfacebook-front.png)
 
-##Background
+## Background
 Bloc Chat is a chat room application that utilizes a Firebase database and is my second project under the Bloc curriculum.
 
 If web development is like swimming, then this project can be considered my first swim lesson without floaties. Supplemental code was limited for this project and the project instructions more or less reiterated the type of [structure and style guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) I'd be using for the project. Bloc did lay out the tasks and functionality to be developed and provided helpful resources. 
 
-This project presented the opportunity to continue to work with Angular and solidfy concepts such as controllers, services, and data-binding along with new concepts in like working with a database, cookies, and modals.
+This project presented the opportunity to continue to work with Angular and solidify concepts such as controllers, services, and data-binding along with new concepts and functionalities such as databases, cookies, and modals.
 
 ## Features
-Defining features enhancing user experience.
 
-Promps for username and save as cookie.
-[](.gif)
+Prompts for username and save as cookie.
+[]({{ site.baseurl }}/img/blocchat/username.gif)
 
 Creates new chat rooms.
-[](.gif)
+[]({{ site.baseurl }}/img/blocchat/addroom.gif)
 
 Contribute to chat rooms. 
-[](.gif)
+[]({{ site.baseurl }}/img/blocchat/message.gif)
 
 Tracks selected room, username, message, and time sent. 
-[](.gif)
+[]({{ site.baseurl }}/img/blocchat/message.png)
 
 ## The Project: Build a Chat Application with Angular and Firebase
 
-Bloc Chat is my first project working with a database which involved using new modules like (UI Boostrap and ngCookies) and new functions that come with the territory. The key features of this application were to have the ability to list chat rooms, create new chat rooms, create and save a username to a cookie, and send and receive messagaes.
+Bloc Chat is my first project working with a database which involved using new modules like (UI Bootstrap and ngCookies) and new functions that come with the territory. The key features of this application were to have the ability to list chat rooms, create new chat rooms, create and save a username to a cookie, and send and receive messages.
 
 ### Project Setup
 
 1. Setup index.html file
-  * Define framworks and services being used
+  * Define frameworks and services being used
   * Link Bloc Chat application with Firebase database
-{:.center}
+
 ![]({{ site.baseurl }}/img/Project Setup.png)
 2. Set app.js file
   * Invoke Angular
   * Attach dependencies to the application
   * Add providers to define the application's home screen state
-{:.center}
+
 ![]({{ site.baseurl }}/img/BlocChat_appjs.png)
 3. Create a Home Controller
 4. Create a Home html Template
@@ -77,7 +76,7 @@ Bloc Chat is my first project working with a database which involved using new m
   * Use the __```ng-click```__ directive on the listed rooms to set the selected room
   * Use the __```ng-show```__ directive to display the room title and contents when the selected room's value is no longer null
 2. Create Message objects in Firebase with the following properties:
-  * sername:
+  * username:
   * content:
   * sentAt:
   * roomId: 
@@ -96,7 +95,7 @@ Bloc Chat is my first project working with a database which involved using new m
 3. Create a template and a controller for the username modal
   * The modal username template utilizes the __```ng-model```__ directive on the username textbox to pass the textbox value to the Username controller
   * Within the Username controller create a __```$scope.createUsername```__ method
-    * The __```$scope.createUsername```__ method runs two important functions, one sets the username based on what is enetered in the username textbox, the other function saves the username as a cookie on the application
+    * The __```$scope.createUsername```__ method runs two important functions, one sets the username based on what is entered in the username textbox, the other function saves the username as a cookie on the application
   * Use a __```ng-submit```__ directive to invoke the __```$scope.createUsername```__ method when the username modal is submitted
 
 ### Challenge 5: How do I send Messages?
