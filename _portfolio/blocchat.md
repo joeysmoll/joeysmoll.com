@@ -17,17 +17,25 @@ This project presented the opportunity to continue to work with Angular and soli
 
 ## Features
 
-Prompts for username and save as cookie.
+Prompts for username and saves it as a cookie
+
+{:.center}
 ![]({{ site.baseurl }}/img/blocchat/username.gif)
 
-Creates new chat rooms.
+Create new chat rooms
+
+{:.center}
 ![]({{ site.baseurl }}/img/blocchat/addroom.gif)
 
-Contribute to chat rooms. 
+Contribute to chat rooms
+
+{:.center}
 ![]({{ site.baseurl }}/img/blocchat/message.gif)
 
-Tracks selected room, username, message, and time sent. 
-![]({{ site.baseurl }}/img/blocchat/message.png)
+Track selected room, username, message, and time sent. 
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/tracking.png)
 
 ## The Project: Build a Chat Application with Angular and Firebase
 
@@ -39,15 +47,17 @@ Bloc Chat is my first project working with a database which involved using new m
   * Define frameworks and services being used
   * Link Bloc Chat application with Firebase database
 
+{:.center}
 ![]({{ site.baseurl }}/img/Project Setup.png)
 2. Set app.js file
   * Invoke Angular
   * Attach dependencies to the application
   * Add providers to define the application's home screen state
 
+{:.center}
 ![]({{ site.baseurl }}/img/BlocChat_appjs.png)
-3. Create a Home Controller
-4. Create a Home html Template
+3. Create a Home controller
+4. Create a Home html template
 
 ### Challenge 1: How do I List Chat Rooms?
 
@@ -55,8 +65,15 @@ Bloc Chat is my first project working with a database which involved using new m
 2. Create a Room service to query the created rooms
   * Input the __`$firebaseArray`__ service as a dependency into the factory and pass it as an argument to the Room service 
   * Use Firebase's __```var ref = firebase.database().ref().child("rooms");```__ function in combination with the __```$firebaseArray(ref)```__ function in order to reference and query fake rooms
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/roomservice.png)
+
 3. Create a Rooms template to display all rooms
   * Utilize the __```ng-repeat```__ directive and a data-binding to list all rooms 
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/roomservice.png)
 
 ### Challenge 2: How do I Create New Chat Rooms?
 
@@ -64,17 +81,32 @@ Bloc Chat is my first project working with a database which involved using new m
 2. Create a button that opens a modal to create a new room using UI Bootstrap's __```$uibModal```__ service
   * Create an __```openModal```__ function to tie it to the Add Room button
   * Create a controller for the Modal and include a method to create a room and another to close the modal 
-    * The __```$scope.createRoom```__ room method will utilize the add room method created in the Room service so the Rooms service will need to be injected as a dependency for the Modal controller
+    * The __```$scope.createRoom```__ room method will utilize the add room method created in the Room service so the Room service will need to be injected as a dependency for the Modal controller
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/createroom.png) 
+
   * Tie the create room method to the Create Room button on the modal
   * Tie the cancel method to the Cancel button on the modal
   * Use the __```ng-model```__ directive on the Room Name textbox in order to pass the textbox value to the __```$scope.createRoom```__ method 
 
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/newroommodal.png) 
+
 ### Challenge 3: How do I List Messages for the Different Chat Rooms? 
 
 1. Set up a method that captures a room's information when selected from the list and display the title in the message space 
-  * Create two methods, one to set the selected room's value to null until a room is selected and the other to change the selected room's value from null to a specific room object 
+  * Create two methods, one to set the selected room's value to null until a room is selected and the other to change the selected room's value from null to a specific room object
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/selectroom.png) 
+
   * Use the __```ng-click```__ directive on the listed rooms to set the selected room
   * Use the __```ng-show```__ directive to display the room title and contents when the selected room's value is no longer null
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/ngclick.png) 
+
 2. Create Message objects in Firebase with the following properties:
   * username:
   * content:
@@ -84,18 +116,37 @@ Bloc Chat is my first project working with a database which involved using new m
 3. Query Message objects for a selected room using a message service
   * Use Firebase's __```var ref = firebase.database().ref().child("messages");```__ function in combination with the __```$firebaseArray(ref)```__ function in order to reference and query messages
   * Create a __```$scope.getByRoomId```__ method to return a room's roomId in the Message service
-    * Use the __```getByRoomId```__ method within the __```$scope.selectRoom```__ method to pull the messages associated with the selected room 
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/getbyroomid.png) 
+
+  * Use the __```getByRoomId```__ method within the __```$scope.selectRoom```__ method to pull the messages associated with the selected room
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/selectedmessages.png)   
+
   * Use __```ng-repeat```__ to list all messages in the content area
   * Use data-bindings to display the different properties 
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/properties.png)   
 
 ### Challenge 4: How do I Set a Username?
 
 1. Add the Angular cookies module to index.html and add __```ngCookies```__ module to the Bloc Chat app's dependency array
 2. Set up a __```$cookies```__ service with a __```.run()```__ block to ensure a username is set when the application is initialized
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/cookies.png)   
+
 3. Create a template and a controller for the username modal
   * The modal username template utilizes the __```ng-model```__ directive on the username textbox to pass the textbox value to the Username controller
   * Within the Username controller create a __```$scope.createUsername```__ method
     * The __```$scope.createUsername```__ method runs two important functions, one sets the username based on what is entered in the username textbox, the other function saves the username as a cookie on the application
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/createusername.png)   
+
   * Use a __```ng-submit```__ directive to invoke the __```$scope.createUsername```__ method when the username modal is submitted
 
 ### Challenge 5: How do I send Messages?
@@ -106,8 +157,15 @@ Bloc Chat is my first project working with a database which involved using new m
   * The __```$scope.createMessage```__ method contains sub-methods to populates the new message's properties for __```roomId```__, __```content```__, __```username```__, and __```sentAt```__
     * Use a __```ng-model```__ directive on the message textbox to pass the textbox value to the __```$scope.content```__ sub-method
     * Use a __```new Date()```__ function to format the __```$scope.sentAt```__ sub-method
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/createmessage.png)   
+
 3. Use the __```ng-submit```__ directive on the Send button to invoke the __```$scope.createMessage```__ function
   * Ensure the function is being passed the selected room object so it's properties can be accessed and used by the __```$scope.createMessage```__ function
+
+{:.center}
+![]({{ site.baseurl }}/img/blocchat/submitmessage.png)   
 
 ## What's Delivered
 
