@@ -44,7 +44,7 @@ Bloc Chat is my first project working with a database which involved using new m
 ### Project Setup
 
 1. Setup index.html file
-   * Define frameworks and services being used
+  * Define frameworks and services being used  * 
   * Link Bloc Chat application with Firebase database
 
 {:.center}
