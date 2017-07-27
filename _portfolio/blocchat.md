@@ -19,7 +19,7 @@ This project presented the opportunity to continue to work with Angular and soli
 
 Prompts for username and saves it as a cookie
 
-    ![]({{ site.baseurl }}/img/blocchat/username.gif)
+![]({{ site.baseurl }}/img/blocchat/username.gif)
 
 Create new chat rooms
 
