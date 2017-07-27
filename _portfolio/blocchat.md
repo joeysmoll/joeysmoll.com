@@ -39,7 +39,7 @@ Track selected room, username, message, and time sent.
 
 ## The Project: Build a Chat Application with Angular and Firebase
 
-Bloc Chat is my first project working with a database which involved using new modules like (UI Bootstrap and ngCookies) and new functions that come with the territory. The key features of this application were to have the ability to list chat rooms, create new chat rooms, create and save a username to a cookie, and send and receive messages.
+Bloc Chat is my first project working with a database which involved using new modules (UI Bootstrap and ngCookies) and new functions that come with the territory. The key features of this application were to have the ability to list chat rooms, create new chat rooms, create and save a username to a cookie, and send and receive messages.
 
 ### Project Setup
 
@@ -63,7 +63,7 @@ Bloc Chat is my first project working with a database which involved using new m
 
 1. Create fake rooms through the Firebase site
 2. Create a Room service to query the created rooms
-  * Input the ```$firebaseArray``` service as a dependency into the factory and pass it as an argument to the Room service 
+  * Input the __```$firebaseArray```__ service as a dependency into the factory and pass it as an argument to the Room service 
   * Use Firebase's __```var ref = firebase.database().ref().child("rooms");```__ function in combination with the __```$firebaseArray(ref)```__ function in order to reference and query fake rooms
 
 {:.center}
@@ -73,7 +73,7 @@ Bloc Chat is my first project working with a database which involved using new m
   * Utilize the __```ng-repeat```__ directive and a data-binding to list all rooms 
 
 {:.center}
-![]({{ site.baseurl }}/img/blocchat/roomservice.png)
+![]({{ site.baseurl }}/img/blocchat/roomrepeat.png)
 
 ### Challenge 2: How do I Create New Chat Rooms?
 
