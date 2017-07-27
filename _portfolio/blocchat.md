@@ -23,15 +23,15 @@ Prompts for username and saves it as a cookie
 
 Create new chat rooms
 
-    ![]({{ site.baseurl }}/img/blocchat/addroom.gif)
+![]({{ site.baseurl }}/img/blocchat/addroom.gif)
 
 Contribute to chat rooms
 
-    ![]({{ site.baseurl }}/img/blocchat/message.gif)
+![]({{ site.baseurl }}/img/blocchat/message.gif)
 
 Track selected room, username, message, and time sent. 
 
-    ![]({{ site.baseurl }}/img/blocchat/tracking.png)
+![]({{ site.baseurl }}/img/blocchat/tracking.png)
 
 ## The Project: Build a Chat Application with Angular and Firebase
 
@@ -40,8 +40,8 @@ Bloc Chat is my first project working with a database which involved using new m
 ### Project Setup
 
 1. Setup index.html file
-    * Define frameworks and services being used
-    * Link Bloc Chat application with Firebase database
+    -Define frameworks and services being used
+    -Link Bloc Chat application with Firebase database
 
     ![]({{ site.baseurl }}/img/Project Setup.png)
 
