@@ -44,11 +44,11 @@ Bloc Chat is my first project working with a database which involved using new m
 ### Project Setup
 
 1. Setup index.html file
-  * Define frameworks and services being used
-  * Link Bloc Chat application with Firebase database
+   * Define frameworks and services being used
+   * Link Bloc Chat application with Firebase database
 
-{:.center}
-![]({{ site.baseurl }}/img/Project Setup.png)
+   ![]({{ site.baseurl }}/img/Project Setup.png)
+   
 2. Set app.js file
   * Invoke Angular
   * Attach dependencies to the application
