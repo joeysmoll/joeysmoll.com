@@ -40,7 +40,7 @@ TRACKS song progress and volume
 ![]({{ site.baseurl }}/img/player_bar.png) 
 
 
-## The Real Project: Refactor Bloc Jams using Angular
+## The Project: Refactor Bloc Jams using Angular
 
 The biggest challenge was learning about these new concepts - some of which are unique to Angular and others that apply to a broader selection of software - without compromising the existing user experience originally created using jQuery. 
 
@@ -108,7 +108,7 @@ A successfully transformed Bloc Jams application that has identical functionalit
 
 ## Lesson Learned
 
-Using multi-page or single-page solutions for applications will come with its compromises and I sacrificed a simple design structure for a more complex design in order to have a more efficient application.     
+Using multi-page or single-page solutions for applications will come with its compromises and I sacrificed a simple design structure for a more complex design in order to have a more efficient application to run and edit.     
 
 {:.center}
 ![]({{ site.baseurl }}/img/Compare.png)
