@@ -18,16 +18,16 @@ This project presented the opportunity to continue to work with Angular and soli
 ## Features
 
 Prompts for username and save as cookie.
-[]({{ site.baseurl }}/img/blocchat/username.gif)
+![]({{ site.baseurl }}/img/blocchat/username.gif)
 
 Creates new chat rooms.
-[]({{ site.baseurl }}/img/blocchat/addroom.gif)
+![]({{ site.baseurl }}/img/blocchat/addroom.gif)
 
 Contribute to chat rooms. 
-[]({{ site.baseurl }}/img/blocchat/message.gif)
+![]({{ site.baseurl }}/img/blocchat/message.gif)
 
 Tracks selected room, username, message, and time sent. 
-[]({{ site.baseurl }}/img/blocchat/message.png)
+![]({{ site.baseurl }}/img/blocchat/message.png)
 
 ## The Project: Build a Chat Application with Angular and Firebase
 
