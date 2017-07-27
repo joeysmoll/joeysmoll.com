@@ -5,7 +5,7 @@ thumbnail-path: "img/Bloc-Chat-pixlr_microsoft-surfacebook-front"
 short-description: Bloc Chat is chat room application.
 ---
 
-{:.center}
+
 ![]({{ site.baseurl }}/img/Bloc-Chat-pixlr_microsoft-surfacebook-front.png)
 
 ## Background
@@ -19,23 +19,23 @@ This project presented the opportunity to continue to work with Angular and soli
 
 Prompts for username and saves it as a cookie
 
-{:.center}
-![]({{ site.baseurl }}/img/blocchat/username.gif)
+
+   ![]({{ site.baseurl }}/img/blocchat/username.gif)
 
 Create new chat rooms
 
-{:.center}
-![]({{ site.baseurl }}/img/blocchat/addroom.gif)
+
+   ![]({{ site.baseurl }}/img/blocchat/addroom.gif)
 
 Contribute to chat rooms
 
-{:.center}
-![]({{ site.baseurl }}/img/blocchat/message.gif)
+
+   ![]({{ site.baseurl }}/img/blocchat/message.gif)
 
 Track selected room, username, message, and time sent. 
 
-{:.center}
-![]({{ site.baseurl }}/img/blocchat/tracking.png)
+
+   ![]({{ site.baseurl }}/img/blocchat/tracking.png)
 
 ## The Project: Build a Chat Application with Angular and Firebase
 
@@ -48,7 +48,7 @@ Bloc Chat is my first project working with a database which involved using new m
    * Link Bloc Chat application with Firebase database
 
    ![]({{ site.baseurl }}/img/Project Setup.png)
-   
+
 2. Set app.js file
   * Invoke Angular
   * Attach dependencies to the application
