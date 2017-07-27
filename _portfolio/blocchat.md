@@ -44,10 +44,8 @@ Bloc Chat is my first project working with a database which involved using new m
 ### Project Setup
 
 1. Setup index.html file
-
-    Define frameworks and services being used
-    
-    Link Bloc Chat application with Firebase database
+  * Define frameworks and services being used
+  * Link Bloc Chat application with Firebase database
 
 {:.center}
 ![]({{ site.baseurl }}/img/Project Setup.png)
@@ -65,7 +63,7 @@ Bloc Chat is my first project working with a database which involved using new m
 
 1. Create fake rooms through the Firebase site
 2. Create a Room service to query the created rooms
-  * Input the __`$firebaseArray`__ service as a dependency into the factory and pass it as an argument to the Room service 
+  * Input the ```$firebaseArray``` service as a dependency into the factory and pass it as an argument to the Room service 
   * Use Firebase's __```var ref = firebase.database().ref().child("rooms");```__ function in combination with the __```$firebaseArray(ref)```__ function in order to reference and query fake rooms
 
 {:.center}
