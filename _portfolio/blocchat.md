@@ -46,7 +46,8 @@ Bloc Chat is my first project working with a database which involved using new m
 1. Setup index.html file
 
     Define frameworks and services being used
-  * Link Bloc Chat application with Firebase database
+    
+    Link Bloc Chat application with Firebase database
 
 {:.center}
 ![]({{ site.baseurl }}/img/Project Setup.png)
