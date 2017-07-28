@@ -79,7 +79,7 @@ Bloc Chat is my first project working with a database which involved using new m
 
    ![]({{ site.baseurl }}/img/blocchat/createroom.png)
 
-  * Tie the create room method to the Create Room button on the modal
+    * Tie the create room method to the Create Room button on the modal
   * Tie the cancel method to the Cancel button on the modal
   * Use the __```ng-model```__ directive on the Room Name textbox in order to pass the textbox value to the __```$scope.createRoom```__ method
 
