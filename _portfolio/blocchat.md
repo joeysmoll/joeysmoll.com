@@ -31,7 +31,7 @@ Contribute to chat rooms
 
 Track selected room, username, message, and time sent. 
 
-![]({{ site.baseurl }}/img/blocchat/tracking.png)
+  ![]({{ site.baseurl }}/img/blocchat/tracking.png)
 
 ## The Project: Build a Chat Application with Angular and Firebase
 
