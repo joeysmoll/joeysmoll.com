@@ -77,8 +77,8 @@ Bloc Chat is my first project working with a database which involved using new m
 * Create a controller for the Modal and include a method to create a room and another to close the modal
 * The __```$scope.createRoom```__ room method will utilize the add room method created in the Room service so the Room service will need to be injected as a dependency for the Modal controller
 
-   ![]({{ site.baseurl }}/img/blocchat/createroom.png)
-   
+  ![]({{ site.baseurl }}/img/blocchat/createroom.png)
+
 * Tie the create room method to the Create Room button on the modal
 * Tie the cancel method to the Cancel button on the modal
 * Use the __```ng-model```__ directive on the Room Name textbox in order to pass the textbox value to the __```$scope.createRoom```__ method
