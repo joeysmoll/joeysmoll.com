@@ -95,7 +95,7 @@ Bloc Chat is my first project working with a database which involved using new m
 * Use the __```ng-click```__ directive on the listed rooms to set the selected room
 * Use the __```ng-show```__ directive to display the room title and contents when the selected room's value is no longer null
 
-   ![]({{ site.baseurl }}/img/blocchat/ngclick.png)
+![]({{ site.baseurl }}/img/blocchat/ngclick.png)
 
 2. Create Message objects in Firebase with the following properties:
 * username:
@@ -115,7 +115,7 @@ Bloc Chat is my first project working with a database which involved using new m
 * Use __```ng-repeat```__ to list all messages in the content area
 * Use data-bindings to display the different properties 
 
-   ![]({{ site.baseurl }}/img/blocchat/properties.png)
+![]({{ site.baseurl }}/img/blocchat/properties.png)
 
 ### Challenge 4: How do I Set a Username?
 
