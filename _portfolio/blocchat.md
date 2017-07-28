@@ -75,11 +75,11 @@ Bloc Chat is my first project working with a database which involved using new m
 2. Create a button that opens a modal to create a new room using UI Bootstrap's __```$uibModal```__ service
   * Create an __```openModal```__ function to tie it to the Add Room button
   * Create a controller for the Modal and include a method to create a room and another to close the modal
-    * The __```$scope.createRoom```__ room method will utilize the add room method created in the Room service so the Room service will need to be injected as a dependency for the Modal controller
+  * The __```$scope.createRoom```__ room method will utilize the add room method created in the Room service so the Room service will need to be injected as a dependency for the Modal controller
 
    ![]({{ site.baseurl }}/img/blocchat/createroom.png)
 
-    * Tie the create room method to the Create Room button on the modal
+  * Tie the create room method to the Create Room button on the modal
   * Tie the cancel method to the Cancel button on the modal
   * Use the __```ng-model```__ directive on the Room Name textbox in order to pass the textbox value to the __```$scope.createRoom```__ method
 
@@ -92,8 +92,8 @@ Bloc Chat is my first project working with a database which involved using new m
 
    ![]({{ site.baseurl }}/img/blocchat/selectroom.png)
 
-  * Use the __```ng-click```__ directive on the listed rooms to set the selected room
-  * Use the __```ng-show```__ directive to display the room title and contents when the selected room's value is no longer null
+   * Use the __```ng-click```__ directive on the listed rooms to set the selected room
+   * Use the __```ng-show```__ directive to display the room title and contents when the selected room's value is no longer null
 
    ![]({{ site.baseurl }}/img/blocchat/ngclick.png)
 
