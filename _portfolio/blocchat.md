@@ -136,18 +136,18 @@ Bloc Chat is my first project working with a database which involved using new m
 ### Challenge 5: How do I send Messages?
 
 1. Create a __```$scope.send```__ method in the Message service
-* The __```$scope.send```__ method will add new messages to the messages __```$firebaseArray```__
+ * The __```$scope.send```__ method will add new messages to the messages __```$firebaseArray```__
 2. Create a Message controller with a __```$scope.createMessage```__ method
 * The __```$scope.createMessage```__ method contains sub-methods to populates the new message's properties for __```roomId```__, __```content```__, __```username```__, and __```sentAt```__
   * Use a __```ng-model```__ directive on the message textbox to pass the textbox value to the __```$scope.content```__ sub-method
   * Use a __```new Date()```__ function to format the __```$scope.sentAt```__ sub-method
 
-![]({{ site.baseurl }}/img/blocchat/createmessage.png)
+   ![]({{ site.baseurl }}/img/blocchat/createmessage.png)
 
 3. Use the __```ng-submit```__ directive on the Send button to invoke the __```$scope.createMessage```__ function
 * Ensure the function is being passed the selected room object so it's properties can be accessed and used by the __```$scope.createMessage```__ function
 
-![]({{ site.baseurl }}/img/blocchat/submitmessage.png)
+   ![]({{ site.baseurl }}/img/blocchat/submitmessage.png)
 
 ## What's Delivered
 
