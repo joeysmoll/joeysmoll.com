@@ -122,7 +122,7 @@ Bloc Chat is my first project working with a database which involved using new m
 1. Add the Angular cookies module to index.html and add __```ngCookies```__ module to the Bloc Chat app's dependency array
 2. Set up a __```$cookies```__ service with a __```.run()```__ block to ensure a username is set when the application is initialized
 
-![]({{ site.baseurl }}/img/blocchat/cookies.png)
+   ![]({{ site.baseurl }}/img/blocchat/cookies.png)
 
 3. Create a template and a controller for the username modal
 * The modal username template utilizes the __```ng-model```__ directive on the username textbox to pass the textbox value to the Username controller
