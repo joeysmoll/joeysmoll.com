@@ -119,8 +119,8 @@ Bloc Chat is my first project working with a database which involved using new m
 
 ### Challenge 4: How do I Set a Username?
 
-1. Add the Angular cookies module to index.html and add __```ngCookies```__ module to the Bloc Chat app's dependency array
-2. Set up a __```$cookies```__ service with a __```.run()```__ block to ensure a username is set when the application is initialized
+1. Add the Angular cookies module to index.html and add __```ngCookies```__ module to the Bloc Chat app's dependency array  * 
+2. Set up a __```$cookies```__ service with a __```.run()```__ block to ensure a username is set when the application is initialized  * 
 
    ![]({{ site.baseurl }}/img/blocchat/cookies.png)
 
