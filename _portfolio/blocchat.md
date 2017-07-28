@@ -83,7 +83,7 @@ Bloc Chat is my first project working with a database which involved using new m
 * Tie the cancel method to the Cancel button on the modal
 * Use the __```ng-model```__ directive on the Room Name textbox in order to pass the textbox value to the __```$scope.createRoom```__ method
 
-   ![]({{ site.baseurl }}/img/blocchat/newroommodal.png)
+![]({{ site.baseurl }}/img/blocchat/newroommodal.png)
 
 ### Challenge 3: How do I List Messages for the Different Chat Rooms? 
 
