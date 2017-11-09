@@ -13,8 +13,10 @@ theme_settings:
      <h1>Alexa Developer</h1>
      <p>- Nodejs - Lambda - DynamoDB - S3 -</p>
   header_text_feature_image:
+  
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>.
+  
 
   # Icons
   rss: false
